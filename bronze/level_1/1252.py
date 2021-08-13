@@ -1,3 +1,4 @@
+# ver.1
 A,B = input().split()
 if len(A) > len(B):
   B = '0'*(len(A)-len(B)) + B
@@ -22,3 +23,10 @@ if '1' not in result:
 else:
   temp = result.index('1')
   print(result[temp:])
+
+
+# ver.2
+a,b = input().split()
+a = int("0b"+a, 2)
+b = int("0b"+b, 2)
+print(bin(a+b)[2:])
