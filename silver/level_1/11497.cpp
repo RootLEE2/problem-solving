@@ -22,7 +22,7 @@ int main() {
     for (int i = 0; i < N-2; i++) {
       level = max(level, L[i+2] - L[i]);
     }
-    level = max(level, L[N-1] - L[N-2]);
+    level = max(level, L[N-1] - L[N-2]);  // 사실 없어도 됨. 근데 있을 때 더 빠름..
     cout << level << '\n';
   }
 
