@@ -12,8 +12,8 @@ int main() {
     cin >> x >> y;
     dist = y - x;
     distTmp = sqrt(dist);
-    cnt = pow(distTmp,2) == dist ? 2*distTmp - 1 : 2*distTmp;
-    if (dist > distTmp * (distTmp+1)) { cnt ++; }
+    cnt = pow(distTmp,2) == dist ? 2*distTmp - 1 : 2*distTmp;  // 2 * distTmp * (distTmp+1) / 2 - distTmp
+    if (dist > distTmp * (distTmp+1)) { cnt ++; }  // dist - distTmp^2 > distTmp
     cout << cnt << '\n';
   }
 }
