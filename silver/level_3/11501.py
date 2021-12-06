@@ -19,17 +19,17 @@ for _ in range(T):
 
 
 # ver.2  3928ms
-# import sys
-# input = sys.stdin.readline
+import sys
+input = sys.stdin.readline
 
-# T = int(input())
-# for _ in range(T):
-#   N = int(input())
-#   stock = list(map(int, input().split()))
-#   result = 0; max = stock[-1]; 
-#   for i in range(N-2,-1,-1):
-#     if stock[i] < max:
-#       result += max - stock[i]
-#     else:
-#       max = stock[i]
-#   print(result)
+T = int(input())
+for _ in range(T):
+  N = int(input())
+  stock = list(map(int, input().split()))
+  result = 0; max = stock[-1]; 
+  for i in range(N-2,-1,-1):
+    if stock[i] < max:
+      result += max - stock[i]
+    else:
+      max = stock[i]
+  print(result)
