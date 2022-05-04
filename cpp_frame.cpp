@@ -6,8 +6,8 @@
 #include <cstring>
 #include <algorithm>
 using namespace std;
-#define MAX_M 300000
-#define MAX_LENGTH 100001
+#define MAX_N 1003
+#define MAX_LENGTH 100005
 #define NUM_OF_ALPHABET 26
 #define INF 0x3f3f3f3f
 #define SQUARE(x) ((x) * (x))
