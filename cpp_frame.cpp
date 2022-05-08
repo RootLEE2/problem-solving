@@ -11,6 +11,7 @@ using namespace std;
 #define NUM_OF_ALPHABET 26
 #define INF 0x3f3f3f3f
 #define SQUARE(x) ((x) * (x))
+typedef long long ll;
 
 void solve() {
   // solution part. 
