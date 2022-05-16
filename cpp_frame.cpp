@@ -12,6 +12,9 @@ using namespace std;
 #define INF 0x3f3f3f3f
 #define SQUARE(x) ((x) * (x))
 typedef long long ll;
+// log2(100000) == 16.609xxx
+// log2(200000) == 17.609xxx
+// log2(500000) == 18.931xxx
 
 void solve() {
   // solution part. 
