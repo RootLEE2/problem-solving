@@ -36,3 +36,12 @@ int main() {
 
   return 0;
 }
+
+/*
+
+[생각한 순서]
+
+1. title
+  - contents
+
+*/
