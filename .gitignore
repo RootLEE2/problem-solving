@@ -1,4 +1,6 @@
 run_cpp
+run_cpp.*
+
 temp.*
 
 .vscode
