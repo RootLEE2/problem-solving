@@ -97,7 +97,7 @@ void build_seg_tree(int node, int tl, int tr) {
 void solve() {
   build_seg_tree(1, 0, N - 1);
 
-  for (int i = 0; i < M; i++) {
+  for (int m = 0; m < M; m++) {
     int c;
     cin >> c;
 
