@@ -3,6 +3,7 @@
 #include <vector>
 #include <stack>
 #include <queue>
+#include <deque>
 #include <map>
 #include <set>
 #include <cstring>
