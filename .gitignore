@@ -4,3 +4,4 @@ run_cpp.*
 temp.*
 
 .vscode
+.DS_Store
