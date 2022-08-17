@@ -1,8 +1,3 @@
-/**
- * @ref https://velog.io/@ks1ksi/%EB%B0%B1%EC%A4%80-1014%EB%B2%88-%EC%BB%A8%EB%8B%9D
- * @ref https://www.secmem.org/blog/2019/10/19/handy-function-about-bit/
- */
-
 #include <iostream>
 #include <stdlib.h>
 #include <vector>
