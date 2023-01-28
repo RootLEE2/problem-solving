@@ -19,16 +19,16 @@ vector<int> desired_barn[MAX_NM];
 int barn2cow[MAX_NM];
 bool visited[MAX_NM];
 
-bool dfs(int v)
+bool dfs(int cow)
 {
-	for (int barn : desired_barn[v]) {
+	for (int barn : desired_barn[cow]) {
 		if (visited[barn])
 			continue;
-		
+
 		visited[barn] = true;
 
 		if (barn2cow[barn] == 0 || dfs(barn2cow[barn])) {
-			barn2cow[barn] = v;
+			barn2cow[barn] = cow;
 			return true;
 		}
 	}
