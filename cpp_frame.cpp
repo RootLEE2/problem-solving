@@ -9,42 +9,40 @@
 #include <cstring>
 #include <algorithm>
 #include <math.h>
+
 using namespace std;
-#define MAX_N 1003
-#define MAX_LENGTH 100005
+#define fastio ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)
+
+#define MAX_N 21
+#define MAX_M 10004
+#define MAX_NM 15
+#define MAX_RC 1502
+#define MAX_LENGTH 2503
 #define NUM_OF_ALPHABET 26
 #define INF 0x3f3f3f3f
+
 #define SQUARE(x) ((x) * (x))
 #define MOD(x) ((x) % 1000000007)
+#define CALCUL_DIST(A, B) (sqrt(pow(A.first - B.first, 2) + pow(A.second - B.second, 2)))
+#define COOR_TO_ARRAY(name, coor) name[coor.first][coor.second]
+
 typedef long long ll;
-// log2(100000) == 16.609xxx
-// log2(200000) == 17.609xxx
-// log2(500000) == 18.931xxx
-// log2(1000000) == 19.931xxx
+typedef long double ld;
 
-void solve() {
-  // solution part. 
+void solve()
+{
 }
 
-void input() {
-  // input part. 
+void input()
+{
 }
 
-int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(0); cout.tie(0);
+int main()
+{
+	fastio;
 
-  input();
-  solve();
+	input();
+	solve();
 
-  return 0;
+	return 0;
 }
-
-/*
-
-[생각한 순서]
-
-1. title
-  - contents
-
-*/
